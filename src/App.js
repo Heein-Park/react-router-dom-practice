@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+
 const Home = () => (<h1>Home</h1>)
 const MyPage = () => (<h1>My Page</h1>)
 const Dashboard = () => (<h1>Dashboard</h1>)
